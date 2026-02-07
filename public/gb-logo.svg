@@ -1,0 +1,32 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#001f3f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a472a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phoneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#mountainGradient)" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Mountain peaks left -->
+  <polygon points="35,140 60,90 70,140" fill="#1a472a" opacity="0.8"/>
+  
+  <!-- Mountain peaks right -->
+  <polygon points="130,140 155,85 170,140" fill="#2d5a3d" opacity="0.7"/>
+  
+  <!-- Center mountain -->
+  <polygon points="100,60 75,120 125,120" fill="#1a472a"/>
+  
+  <!-- Mobile phone outline -->
+  <rect x="85" y="70" width="30" height="50" rx="3" fill="url(#phoneGradient)" stroke="#001f3f" stroke-width="1.5"/>
+  <rect x="88" y="75" width="24" height="38" rx="2" fill="#001f3f"/>
+  <circle cx="101" cy="120" r="2" fill="#ffffff"/>
+  
+  <!-- GB text -->
+  <text x="100" y="155" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle" font-family="Poppins">GB</text>
+</svg>

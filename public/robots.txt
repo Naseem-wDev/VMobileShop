@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shigarimobile.com/sitemap.xml
+
+# Disallow crawling of unnecessary paths
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /src/
+Disallow: /.git/
+
+# Allow crawling of static assets
+Allow: /assets/
+Allow: /public/
