@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏔️ Shigari Mobile Shop - GB's Trusted Mobile Store
 
 A modern, professional, and fully responsive website for **Shigari Mobile Shop**, a leading mobile phone retailer in Gilgit-Baltistan (GB). Built with React, TypeScript, and Vite for maximum performance and user experience.
@@ -274,3 +275,9 @@ export default defineConfig([
   },
 ])
 ```
+=======
+# VMobileShop
+need and clean web page for phone shop
+#Author Naseem Shigari
+
+>>>>>>> 0c698225927e909dba06f2225093451fe5bc3ace
